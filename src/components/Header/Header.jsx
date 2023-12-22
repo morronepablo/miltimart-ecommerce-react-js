@@ -89,11 +89,11 @@ const Header = () => {
 
             <div className="nav__icons">
               <span className="fav__icon">
-                <i class="ri-heart-line"></i>
+                <i className="ri-heart-line"></i>
                 <span className="badge">2</span>
               </span>
               <span className="cart__icon" onClick={navigateToCart}>
-                <i class="ri-shopping-bag-line"></i>
+                <i className="ri-shopping-bag-line"></i>
                 {totalQuantity > 0 && (
                   <span className="badge">{totalQuantity}</span>
                 )}
@@ -107,7 +107,7 @@ const Header = () => {
               </span>
               <div className="mobile__menu">
                 <span onClick={menuToggle}>
-                  <i class="ri-menu-line"></i>
+                  <i className="ri-menu-line"></i>
                 </span>
               </div>
             </div>

@@ -61,10 +61,10 @@ const Cart = () => {
                 </p>
                 <div>
                   <button className="buy__btn w-100">
-                    <Link to="/shop">Continue Shopping</Link>
+                    <Link to="/checkout">Checkout</Link>
                   </button>
                   <button className="buy__btn w-100 mt-3">
-                    <Link to="/checkout">Checkout</Link>
+                    <Link to="/shop">Continue Shopping</Link>
                   </button>
                 </div>
               </Col>
